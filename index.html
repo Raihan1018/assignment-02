@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .inter {
+        font-family: "Inter", sans-serif;
+      }
+      .noto {
+        font-family: "Noto Serif", serif;
+      }
+    </style>
+
+    <!--  Tailwind CDN  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Flower Shop</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="container mx-auto max-w-screen-lg my-5">
+      <div class="flex justify-between items-center px-5">
+        <!-- Logo -->
+        <div>
+          <img class="w-1/2 md:w-full" src="./assets/logo.png" alt="Logo" />
+        </div>
+        <!-- Menu Items -->
+        <div>
+          <ul class="flex space-x-12 items-center inter">
+            <li class="hidden lg:flex hover:text-[#8987A1] duration-200"><a href="#">Home</a></li>
+            <li class="hidden lg:flex hover:text-[#8987A1] duration-200"><a href="#">Shop</a></li>
+            <li class="hidden lg:flex hover:text-[#8987A1] duration-200"><a href="#">About us</a></li>
+            <button class="flex items-center">
+              <i class="fa-solid fa-cart-shopping"></i>Cart($<span>56</span>)
+            </button>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
