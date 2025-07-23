@@ -41,7 +41,9 @@
       <div class="flex justify-between items-center px-5">
         <!-- Logo -->
         <div>
-          <img class="w-1/2 md:w-full" src="./assets/logo.png" alt="Logo" />
+          <a href="/"
+            ><img class="w-1/2 md:w-full" src="./assets/logo.png" alt="Logo"
+          /></a>
         </div>
         <!-- Menu Items -->
         <div>
@@ -322,14 +324,16 @@
 
     <!-- Join the colorful Bunch section -->
     <section
-      class="my-20  bg-[url('./assets/news-letter-bg.png')] bg-no-repeat bg-cover bg-center h-[530px]"
+      class="container mx-auto max-w-screen-2xl my-20 bg-[url('./assets/news-letter-bg.png')] bg-no-repeat bg-cover bg-center h-[530px]"
     >
       <div class="text-center mx-auto space-y-5">
-        <h2 class="noto text-white text-5xl font-bold text-center pt-48">
+        <h2
+          class="noto text-white text-2xl lg:text-5xl font-bold text-center pt-48"
+        >
           Join the colorful Bunch
         </h2>
         <input
-          class="w-[650px] px-8 py-3.5"
+          class="w-[240px] lg:w-[650px] px-8 py-3.5"
           type="text"
           placeholder="Write Email"
         />
@@ -340,5 +344,94 @@
         </button>
       </div>
     </section>
+
+    <!-- footer -->
+    <footer class="container mx-auto max-w-screen-lg my-12">
+      <div class="grid grid-cols-1 lg:grid-cols-4 mx-5">
+        <!-- logo -->
+        <div>
+          <a href="/">
+            <img class="lg:w-1/2 mb-10" src="./assets/logo.png" alt="Logo"
+          /></a>
+        </div>
+        <!-- Menu 1 -->
+        <div>
+          <ul class="space-y-5">
+            <li>
+              <a class="inter text-gray-500 hover:underline" href="">Home</a>
+            </li>
+            <li>
+              <a class="inter text-gray-500 hover:underline" href=""
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a class="inter text-gray-500 hover:underline" href="">Blog</a>
+            </li>
+            <li>
+              <a class="inter text-gray-500 hover:underline" href="">FAQ</a>
+            </li>
+            <li>
+              <a class="inter text-gray-500 hover:underline" href=""
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Menu 2 -->
+        <div>
+          <ul class="space-y-5">
+            <li>
+              <a class="inter text-gray-500 hover:underline" href=""
+                >Features</a
+              >
+            </li>
+            <li>
+              <a class="inter text-gray-500 hover:underline" href="">Pricing</a>
+            </li>
+            <li>
+              <a class="inter text-gray-500 hover:underline" href=""
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a class="inter text-gray-500 hover:underline" href=""
+                >Terms of Service</a
+              >
+            </li>
+            <li>
+              <a class="inter text-gray-500 hover:underline" href=""
+                >Help Center</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Social Icons -->
+        <div>
+          <div class="flex gap-5 mt-5">
+            <img
+              class="w-[36px] lg:w-full cursor-pointer"
+              src="./assets/003-linkedin.png"
+              alt="linkedin"
+            />
+            <img
+              class="w-[36px] lg:w-full cursor-pointer"
+              src="./assets/004-twitter.png"
+              alt="twitter"
+            />
+            <img
+              class="w-[36px] lg:w-full cursor-pointer"
+              src="./assets/001-facebook.png"
+              alt="facebook"
+            />
+            <img
+              class="w-[36px] lg:w-full cursor-pointer"
+              src="./assets/002-youtube.png"
+              alt="youtube"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
