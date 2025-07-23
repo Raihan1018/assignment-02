@@ -46,9 +46,15 @@
         <!-- Menu Items -->
         <div>
           <ul class="flex space-x-12 items-center inter">
-            <li class="hidden lg:flex hover:text-[#8987A1] duration-200"><a href="#">Home</a></li>
-            <li class="hidden lg:flex hover:text-[#8987A1] duration-200"><a href="#">Shop</a></li>
-            <li class="hidden lg:flex hover:text-[#8987A1] duration-200"><a href="#">About us</a></li>
+            <li class="hidden lg:flex hover:text-[#8987A1] duration-200">
+              <a href="#">Home</a>
+            </li>
+            <li class="hidden lg:flex hover:text-[#8987A1] duration-200">
+              <a href="#">Shop</a>
+            </li>
+            <li class="hidden lg:flex hover:text-[#8987A1] duration-200">
+              <a href="#">About us</a>
+            </li>
             <button class="flex items-center">
               <i class="fa-solid fa-cart-shopping"></i>Cart($<span>56</span>)
             </button>
@@ -56,5 +62,31 @@
         </div>
       </div>
     </header>
+
+    <!-- hero section -->
+    <section
+      class="container mx-auto max-w-screen-lg m-5 justify-between flex flex-col-reverse lg:flex-row"
+    >
+      <!-- text -->
+      <div class="lg:w-1/2 px-5">
+        <h2 class="noto font-semibold text-2xl lg:text-6xl my-5">
+          ALWAYS
+          <span class="text-[#E95A08]"
+            >FRESH <br />
+            FLOWERS</span
+          >
+        </h2>
+        <p class="inter text-[rgba(0,0,0,0.5)]">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of
+          fresh flowers that are perfect for any occasion.
+        </p>
+      </div>
+
+      <!-- image -->
+      <div class="lg:w-1/2">
+        <img src="./assets/hero-flower.png" alt="Hero Image" />
+      </div>
+    </section>
   </body>
 </html>
